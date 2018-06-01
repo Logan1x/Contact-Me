@@ -4,7 +4,8 @@
 	<meta class="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Contact Form</title>
-	<link rel='stylesheet' href='css/style.css' />
+	<link rel='stylesheet' href='css/style.min.css' />
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 </head>
 <body>
 	<!-- navbar -->
@@ -33,24 +34,22 @@
 				<div class="auth__auth">
 					<h1 class="auth__title">Contact Form</h1>
 					<p>Fill in your details to send message</p>
-					<form method='post' action="/Contact-Me/example.html" role="presentation" class="form">
+					<div class="alert">Your message has been submitted.</div>
+					<form class="form" id="contactform">
 						<label>Name</label>
 						<input type="text" name="name" id="name" placeholder="Your Name"required>
-						<input name="email" class="fakefield">
 						<label>Email</label>
-						<input type="text" name="email" id='email' placeholder="you@example.com"required>
-						<!-- <label>Password</label> -->
+						<input type="email" name="email" id='email' placeholder="you@example.com"required>
 						<label>Your Messege</label>
 						<textarea placeholder="Enter your message here" id="textarea"required></textarea>
-						<!-- <input type="password" name="password" id='password' placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;" autocomplete="off"> -->
 						<button type='submit' class="button button__accent">Send Message</button>
-						<!-- <a href="https://evie.undraw.co" class="button button__accent">About Evie</a> -->
-						<!-- <a href=""><h6 class="left-align" >Forgot your password?</h6></a> -->
 					</form>
 				</div>
 			</div>
 		</div>
 	</div>
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script src="js/main.min.js"></script>
 <script src='js/app.min.js'></script>
 </body>
 </html>
