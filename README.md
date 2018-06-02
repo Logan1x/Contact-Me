@@ -1,6 +1,6 @@
 # Contact Me
 
-Contact Me is a contact from based on html,css,js and firebase.
+Contact Me is a contact from based on `HTML`, `CSS`, `JS` and `Firebase`.
 This project is based on [Evie by unDraw](https://evie.undraw.co) and the code is so messy, contribute to make it clean and more readable.
 
 Sample view for website.
