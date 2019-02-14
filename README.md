@@ -12,5 +12,5 @@ Sample view for website.
 
 ![Mobile View](/images/screely-1527664971043.png)
 
-See `license` for copyright info.
+See [`license`](https://github.com/Logan1x/Contact-Me/blob/master/LICENSE) for copyright info.
 Suggestion's Welcome :smile:
